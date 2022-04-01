@@ -45,7 +45,7 @@ document.addEventListener('scroll', function () {
 
 function ShowNextPicture(userScrolled) {
     if(userScrolled) {
-        if(i < 15) {
+        if(i < 6) {
             box.src = `flow_images/${i}.jpg`;
             ++i;
         }        
